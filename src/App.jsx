@@ -12,6 +12,7 @@ import Tgp from './page/grandpalace';
 import Grove from './page/grovecafe';
 import Grest from './page/grest';
 import Kiki from './page/KIKI.jsx';
+import Online from './page/online.jsx';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Route path="/grovecafe" element={<Grove />} />
       <Route path="/grestchicken" element={<Grest />} />
       <Route path="/kiki" element={<Kiki />} />
+      <Route path="/online" element={<Online />} />
       
     </Routes>
   );
