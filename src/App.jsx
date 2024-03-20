@@ -30,6 +30,7 @@ const App = () => {
       <Route path="/grestchicken" element={<Grest />} />
       <Route path="/kiki" element={<Kiki />} />
       <Route path="/online" element={<Online />} />
+      <Route path="/route" element={<Online />} />
       
     </Routes>
   );
