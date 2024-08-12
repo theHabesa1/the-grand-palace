@@ -13,6 +13,9 @@ import Grove from './page/grovecafe';
 import Grest from './page/grest';
 import Kiki from './page/KIKI.jsx';
 import Online from './page/online.jsx';
+import Madam from './page/madam.jsx';
+import Asterio from './page/asterio.jsx';
+import Table from './page/table.jsx';
 
 const App = () => {
   return (
@@ -31,6 +34,9 @@ const App = () => {
       <Route path="/kiki" element={<Kiki />} />
       <Route path="/online" element={<Online />} />
       <Route path="/route" element={<Online />} />
+      <Route path="/madams" element={<Madam />} />
+      <Route path="/asterio" element={<Asterio />} />
+      <Route path="/table5" element={<Table />} />
       
     </Routes>
   );
